@@ -1,16 +1,16 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("vars.css");
 
-a {
-  color: inherit;
-  text-decoration: none;
+.selecao{
+  background-color: var(--secundary);
+  height: 25rem;
+  width: 10rem;
+  display: flex;
+  float: left;
+  text-align: center;
+  color: white;
+  align-items: center;
+  margin-right: 1rem;
 }
-
-* {
-  box-sizing: border-box;
+.selecao:first-child{
+  margin-left: 1rem;
 }
