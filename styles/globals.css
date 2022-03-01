@@ -3,14 +3,39 @@
 .selecao{
   background-color: var(--secundary);
   height: 25rem;
-  width: 10rem;
+  width: 100%;
   display: flex;
   float: left;
   text-align: center;
   color: white;
   align-items: center;
-  margin-right: 1rem;
+
 }
 .selecao:first-child{
   margin-left: 1rem;
+}
+
+.input-selecao{
+  float: left;
+  width: 95%;
+  height: 2rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border: 2px solid var(--dark-blue);
+  border-radius: 5px;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.input-selecao:focus{
+  background-color: var(--secundary);
+}
+
+
+.selecaoSummoner{
+  width: 10rem;
+  height: auto;
+  align-items: left;
+  float: left;
+  margin-right: 1rem;
 }

@@ -1,10 +1,9 @@
-import Selecao from "../components/moduraCampeao/selecao";
+import Moldura from "../components/muralMolduras/muldura";
 
 export default function Home() {
   return (
     <div >
-      asdasd
-      <Selecao/>
+      <Moldura/>
     </div>
   )
 }
